@@ -1,0 +1,5 @@
+@import "../../../styles/variables.css";
+
+.yellow_backgorund {
+    background-color: var(--bgcolor2);
+}

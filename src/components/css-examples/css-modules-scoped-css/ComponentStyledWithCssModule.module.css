@@ -1,0 +1,9 @@
+@import "../../../styles/variables.css";
+.outlineDiv {
+    border: 1px solid lightgray;
+}
+
+.outlineDiv:hover {
+    background-color: var(--bgcolor1);
+    color: white;
+}
