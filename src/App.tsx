@@ -11,6 +11,10 @@ import {
   Grid,
   Grid2,
 } from "./components/css-examples/styled-components/GridWithStyledAndProps.style";
+import ComponentUseState from "./components/hooks-examples/useState/ComponentUseState";
+import ComponentUseMemo from "./components/hooks-examples/useMemo/ComponentUseMemo";
+import ComponentUseEffect from "./components/hooks-examples/useEffect/ComponentUseEffect";
+import ComponentUseCallback from "./components/hooks-examples/useCallback/ComponentUseCallback";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +25,7 @@ function App() {
 
   return (
     <div>
-      <ComponentStyledWithCssModule></ComponentStyledWithCssModule>
+      {/* <ComponentStyledWithCssModule></ComponentStyledWithCssModule>
       <ComponentStyledWithCss></ComponentStyledWithCss>
       <ComponentStylesWithDynamicUseCss></ComponentStylesWithDynamicUseCss>
       <SimpleBox>I'm a simple div created with styled</SimpleBox>
@@ -37,7 +41,11 @@ function App() {
         <div>Col1</div>
         <div>Col2</div>
         <div>Col3</div>
-      </Grid2>
+      </Grid2> */}
+      {/* <ComponentUseState></ComponentUseState> */}
+      {/* <ComponentUseMemo></ComponentUseMemo> */}
+      {/* <ComponentUseEffect /> */}
+      <ComponentUseCallback></ComponentUseCallback>
     </div>
   );
 }

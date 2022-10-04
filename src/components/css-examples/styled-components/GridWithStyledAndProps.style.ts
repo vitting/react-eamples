@@ -19,5 +19,5 @@ export const Grid = styled.div`
 
 export const Grid2 = styled.div((props: Props) => ({
   display: "grid",
-  "grid-template-columns": `repeat(${props.numberOfColumns}, 100px)`,
+  "gridTemplateColumns": `repeat(${props.numberOfColumns}, 100px)`,
 }));
